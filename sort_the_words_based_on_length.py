@@ -1,0 +1,5 @@
+s = input()
+y = s.split()
+y.sort()
+y.sort(key = len)
+print(' '.join(y))
